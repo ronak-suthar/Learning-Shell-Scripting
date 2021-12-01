@@ -185,8 +185,7 @@
 		- Deletes directories recusrsively and its contents
 		```bash
 			rm -r <dir1> <dir2> ... <dirN>
-		```
-		 
+		``` 
 
 
 
