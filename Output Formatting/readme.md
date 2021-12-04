@@ -1,4 +1,4 @@
-## Output Formatting
+## Input and Output Formatting
 
 1. echo statement formatting
     - Using \n and \t for new line and tab space respectively.
@@ -42,3 +42,15 @@
             ls -al | tee file.txt
             ls -al | tee -t file.txt
         ``` 
+4. Input Redirection
+    - command < input file
+    - Read input from user
+        - ```bash
+            read userName
+            echo $userName
+         ```
+    - file descriptor 
+        - STDIN : 0
+        - STDOUT : 1
+        - STDERR : 2
+        
